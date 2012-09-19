@@ -2,6 +2,10 @@ PagSeguro Library
 =================
 Biblioteca do PagSeguro em PHP adaptada para o Zend Framwork.
 
+Primeiro passo
+--------------
+Primeiramente altere o arquivo ```ConfigParams.php``` com suas credenciais do PagSeguro.
+
 Como usar
 ---------
 Registre o namespace em seu Bootstrap:
@@ -24,8 +28,7 @@ $credentials = PagSeguro_Config::getAccountCredentials();
 $paymentRequest->register($credentials);
 ```
 
-Para mais detalhes veja aqui o tutorial do próprio PagSeguro:
-https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html
+Para mais detalhes [veja aqui o tutorial](https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html) do próprio PagSeguro.
 
 Você verá que só precisará alterar os nomes das classes nos exemplos usados no tutorial do PagSeguro.
 
