@@ -6,6 +6,8 @@ Primeiro passo
 --------------
 Primeiramente altere o arquivo ```ConfigParams.php``` com suas credenciais do PagSeguro.
 
+PS: A biblioteca deve ficar no diretÃ³rio das bibliotecas com o nome PagSeguro.
+
 Como usar
 ---------
 Registre o namespace em seu Bootstrap:
@@ -28,15 +30,15 @@ $credentials = PagSeguro_Config::getAccountCredentials();
 $paymentRequest->register($credentials);
 ```
 
-Para mais detalhes [veja aqui o tutorial](https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html) do próprio PagSeguro.
+Para mais detalhes [veja aqui o tutorial](https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html) do prï¿½prio PagSeguro.
 
-Você verá que só precisará alterar os nomes das classes nos exemplos usados no tutorial do PagSeguro.
+Vocï¿½ verï¿½ que sï¿½ precisarï¿½ alterar os nomes das classes nos exemplos usados no tutorial do PagSeguro.
 
 Como contribuir
 ---------------
 Fork, code e submit um PULL REQUEST
 
-Licença
+Licenï¿½a
 -------
 It's free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
