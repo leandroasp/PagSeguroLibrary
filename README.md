@@ -32,13 +32,13 @@ $paymentRequest->register($credentials);
 
 Para mais detalhes [veja aqui o tutorial](https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html) do pr�prio PagSeguro.
 
-Voc� ver� que s� precisar� alterar os nomes das classes nos exemplos usados no tutorial do PagSeguro.
+Você verá que só precisará alterar os nomes das classes nos exemplos usados no tutorial do PagSeguro.
 
 Como contribuir
 ---------------
 Fork, code e submit um PULL REQUEST
 
-Licen�a
+Licen�ç
 -------
 It's free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
